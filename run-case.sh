@@ -5,7 +5,7 @@ ACTIVATE_SCRIPT="../activate"
 FLUID_CMD="cd FLUID && ./run.sh --parallel"
 SOLID_CMD="cd SOLID && ./run.sh"
 
-SESSION_NAME="fsi_session"
+SESSION_NAME=$1
 
 tmux new-session -d -s $SESSION_NAME
 

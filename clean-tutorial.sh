@@ -1,1 +1,1 @@
-../tools/clean-tutorial-base.sh
+tools/clean-tutorial-base.sh
