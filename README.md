@@ -22,6 +22,7 @@ Verify installation:
 
 ```bash
 docker --version
+```
 
 ---
 
@@ -31,7 +32,7 @@ Pull the ready-to-use Docker image. Run:
 
 ```bash
 docker pull <your-dockerhub-username>/fsi-tutorial:latest
-
+```
 ---
 
 ## 3. Run the container
@@ -42,6 +43,7 @@ Start an interactive session with:
 docker run -it --rm \
     -v $(pwd):/home/student/project \  # Mount project directory
     <your-dockerhub-username>/fsi-tutorial:latest
+```
 
 The -it flag allows interactive terminal access. The --rm flag removes the container after exit. The
 -v flag mounts your current directory to /home/student/project in the container.
